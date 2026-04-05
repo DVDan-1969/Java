@@ -1,20 +1,17 @@
-package Tema2;
-/*Write a program to Check whether the number is even or odd using switch statement,
-tips: A even number is divided by 2 exactly.*/
+package Tema3;
 
-import java.util.Scanner;
+import java.util.HashSet;
+import java.util.Set;
 
+/*Write a Java program to remove duplicate elements from an array.*/
 public class Exercitiu5 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Introdu  numarul (a): ");
-        int a = scanner.nextInt();
-        if(a%2==0){
-            System.out.println("Number is divided by 2 exactly");
-        }else {
-            System.out.println("Number is odd");
-        }
+       String[] students={"Ana","Ion","Ana","Maria","Ion"};
+       Set<String> unique=new HashSet<String>();
+       for(String str:students){
+           unique.add(str);
+       }
+       System.out.println(unique);
 
     }
 }
