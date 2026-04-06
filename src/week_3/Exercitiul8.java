@@ -1,4 +1,4 @@
-package Tema3;
+package src.week_3;
 /*Write a Java program to concatenate a given string to the end of another string.*/
 public class Exercitiul8 {
     public static void main(String[] args) {

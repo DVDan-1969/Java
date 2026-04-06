@@ -1,4 +1,4 @@
-package Tema3;
+package src.week_3;
 
 import java.util.Scanner;
 

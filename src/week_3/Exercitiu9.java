@@ -1,4 +1,4 @@
-package Tema3;
+package src.week_3;
 /*Write a Java program to check whether two String objects contain the same data.*/
 public class Exercitiu9 {
     public static void main(String[] args) {

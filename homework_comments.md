@@ -1,3 +1,6 @@
+**Week_1:**
+inceputul arata bine, nu am comentarii aici
+
 **Week_3:** 
 ex 1 - ok
 ex 2 - ok
