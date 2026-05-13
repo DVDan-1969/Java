@@ -1,9 +1,9 @@
 package tema8_ex4;
+
 import java.util.HashSet;
 
 public class EventAttendees {
     public static void main(String[] args) {
-
 
         HashSet<String> guests = new HashSet<>();
 

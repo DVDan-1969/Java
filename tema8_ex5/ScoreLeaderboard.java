@@ -1,5 +1,7 @@
 package tema8_ex5;
+
 import java.util.TreeSet;
+
 public class ScoreLeaderboard {
     public static void main(String[] args) {
 

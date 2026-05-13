@@ -1,5 +1,7 @@
 package tema8_ex1;
+
 import java.util.HashMap;
+
 public class StockTracker {
     public static void main(String[] args) {
 
@@ -24,6 +26,8 @@ public class StockTracker {
         for (String ticker : stocks.keySet()) {
             System.out.println(ticker);
         }
+
+        System.out.println(stocks);
     }
 }
 

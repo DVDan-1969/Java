@@ -7,6 +7,9 @@ public class Main {
         Box<String> stringBox = new Box<>("Hello Generics!");
         System.out.println(stringBox.getItem());
 
+        //de adaugat o declaratie de genul asta ca sa vezi ce se intampla doar
+        //Box<Integer> stringBox2 = new Box<>("Hello Generics!");
+
         Box<Integer> integerBox = new Box<>(123);
         System.out.println(integerBox.getItem());
     }

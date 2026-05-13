@@ -1,4 +1,5 @@
 package tema8_ex6;
+
 import java.util.LinkedHashSet;
 
 public class MusicPlaylist {
