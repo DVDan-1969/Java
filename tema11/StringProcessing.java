@@ -5,7 +5,7 @@ import java.util.List;
 
 public class StringProcessing {
     public static void main(String[] args) {
-        List<String> user_names = Arrays.asList("John","Dan","Andrew","Robinson","Michael","Ana");
+        List<String> user_names = Arrays.asList("John","Dan","Andrew","Robinson","Michael","Ana", "John","Dan");
         user_names.stream()
                 .distinct()
                 .filter(name -> name.length() >=4)
